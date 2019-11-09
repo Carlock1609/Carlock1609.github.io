@@ -1,0 +1,60 @@
+body,html {
+    height: 100%;
+  }
+body {
+    background-image: url(Pics/Dark_pics/Dark_rose.webp);
+    
+    background-position: center center;
+
+    background-repeat: no-repeat;   
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-color:#464646;
+}
+.display-4{
+    color: rgba(255, 255, 255, 0.527);
+    font-weight: 400;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#header{
+    color: white;
+    font-family: 'Wallpoet', cursive;
+    font-size: 2rem;
+}
+#header:hover{
+    color: #34A853;
+}
+#btn1{
+    color:white;
+}
+#btn1:hover{
+    background-color: #EA4335;
+}
+#btn2{
+    color:white;
+}
+#btn2:hover{
+    background-color: #4285F4;
+
+}
+#btn3{
+    color:white;
+}
+#btn3:hover{
+    background-color: #FBBC05;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }

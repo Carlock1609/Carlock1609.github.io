@@ -1,60 +1,103 @@
-body,html {
+/* BACKGROUND IMAGES */
+body, html {
     height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
-body {
-    background-image: url(Pics/Dark_pics/Dark_rose.webp);
-    
-    background-position: center center;
-
-    background-repeat: no-repeat;   
-
-    background-attachment: fixed;
-
+  * {
+    box-sizing: border-box;
+  }
+.bg-image {
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-
-    background-color:#464646;
+  }
+  /* Images used */
+    .img1 { background-image: url("Pics/Backgrounds/dark_sky_bird.webp"); }
+    .img2 { background-image: url("Pics/Backgrounds/skull.webp"); }
+  /* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: #00000066; /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+/* NAVBAR CSS */
+/* NAV HEADER */
+.navbar.scrolled {
+    background: rgb(255, 255, 255);
+    transition: background 1s;
 }
+.navbar .navbar-brand{
+    color: white;
+}
+.navbar.scrolled .navbar-brand{
+    color: black;
+}
+#mainNavbar{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Wallpoet', cursive;
+}
+/* JUMBOTRON WORDS */
 .display-4{
-    color: rgba(255, 255, 255, 0.527);
+    color: rgb(255, 255, 255);
     font-weight: 400;
 }
 .jumbotron{
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(7, 7, 7, 0.171);
     color: white;
     font-family: 'Cinzel', serif;
 }
-#header{
-    color: white;
-    font-family: 'Wallpoet', cursive;
-    font-size: 2rem;
+/* JUMBOTRON BUTTONS */
+#btn1 {
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
-#header:hover{
+#btn1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+#btn1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+#btn1:hover span {
+    padding-right: 25px;
     color: #34A853;
 }
-#btn1{
-    color:white;
+  
+#btn1:hover span:after {
+    opacity: 1;
+    right: 0;
 }
-#btn1:hover{
-    background-color: #EA4335;
-}
-#btn2{
-    color:white;
-}
-#btn2:hover{
-    background-color: #4285F4;
-
-}
-#btn3{
-    color:white;
-}
-#btn3:hover{
-    background-color: #FBBC05;
-}
-.vl {
-    border-left: 6px solid green;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-  }

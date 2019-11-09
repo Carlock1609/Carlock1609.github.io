@@ -47,10 +47,10 @@ body, html {
 .navbar.scrolled .navbar-brand{
     color: black;
 }
-#mainNavbar{
-    font-size: 2rem;
-    font-weight: 100;
-    font-family: 'Wallpoet', cursive;
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Bangers', cursive;
 }
 /* JUMBOTRON WORDS */
 .display-4{
@@ -63,6 +63,9 @@ body, html {
     font-family: 'Cinzel', serif;
 }
 /* JUMBOTRON BUTTONS */
+.jumbotron #btn1 {
+    width: 200px;
+}
 #btn1 {
     border-radius: 4px;
     border: none;
@@ -71,10 +74,10 @@ body, html {
     font-size: 28px;
     font-weight: 500;
     padding: 20px;
-    width: 200px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    font-family: 'Cinzel', serif;
 }
 #btn1 span {
     cursor: pointer;
@@ -91,12 +94,10 @@ body, html {
     right: -20px;
     transition: 0.5s;
 }
-  
 #btn1:hover span {
     padding-right: 25px;
     color: #34A853;
 }
-  
 #btn1:hover span:after {
     opacity: 1;
     right: 0;

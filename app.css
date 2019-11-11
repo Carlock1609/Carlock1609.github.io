@@ -16,8 +16,8 @@ body, html {
     background-size: cover;
   }
   /* Images used */
-    .img1 { background-image: url("Pics/Backgrounds/dark_sky_bird.webp"); }
-    .img2 { background-image: url("Pics/Backgrounds/skull.webp"); }
+    .img1 { background-image: url("pics/Backgrounds/black_image.jfif"); }
+    .img2 { background-image: url("pics/Dark_pics/Dark_person.webp"); }
   /* Position text in the middle of the page/image */
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
@@ -52,6 +52,13 @@ body, html {
     font-weight: 400;
     font-family: 'Bangers', cursive;
 }
+/* colored brand when hover */
+.navbar-brand:hover{
+    color: #34A853;
+}
+.navbar.scrolled .navbar-brand:hover{
+    color: #34A853;
+}
 /* JUMBOTRON WORDS */
 .display-4{
     color: rgb(255, 255, 255);
@@ -85,7 +92,6 @@ body, html {
     position: relative;
     transition: 0.5s;
 }
-  
 #btn1 span:after {
     content: '\00bb';
     position: absolute;
@@ -101,4 +107,10 @@ body, html {
 #btn1:hover span:after {
     opacity: 1;
     right: 0;
+}
+#hr1{
+    border-right: 1px solid rgba(255, 255, 255, 0.356);
+}
+#hr2{
+    border-left: 1px solid rgba(255, 255, 255, 0.356);
 }

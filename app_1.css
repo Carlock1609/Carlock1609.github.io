@@ -1,16 +1,47 @@
 body{
     background-color: black;
     color: white;
+    
 }
 hr{
     background-color: rgb(255, 255, 255);
     width: 50%;
 }
+p{
+    font-family: 'Poppins', sans-serif;
+}
+/* list colors */
+#netflix:hover{
+    color: #e50914;
+}
+#hulu:hover{
+    color: #99cc33;
+}
+#disney:hover{
+    color: rgb(43, 126, 204);
+}
+#python:hover{
+    color: #ffde57;
+}
+#html:hover{
+    color: #e34f26;
+}
+#css:hover{
+    color: #002561;
+}
+#javascript:hover{
+    color: #f7df1e;
+}
+
+
 #titlePost{
     font-family: 'Bangers', cursive;
 }
 
-#mainPost{
+#header1{
+    font-family: 'Bangers', cursive;
+    border-bottom: 1px solid white;
+    width: auto;
 }
 /* Button graph */
 #btn1 {
@@ -24,7 +55,7 @@ hr{
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Bangers', cursive;
 }
 #btn1 span {
     cursor: pointer;
@@ -49,26 +80,85 @@ hr{
     right: 0;
 }
 
-/* Scroll Bar */
-.navbar.scrolled {
-    background: rgb(255, 255, 255);
-    transition: background 1s;
+
+
+/* swing animation */
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
-.navbar .navbar-brand{
-    color: white;
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
-.navbar.scrolled .navbar-brand{
-    color: black;
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
 }
-.navbar-brand{
-    font-size: 3rem;
-    font-weight: 400;
-    font-family: 'Bangers', cursive;
-}
-/* colored brand when hover */
-.navbar-brand:hover{
-    color: #34A853;
-}
-.navbar.scrolled .navbar-brand:hover{
-    color: #34A853;
-}
+
+
+

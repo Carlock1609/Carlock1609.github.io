@@ -34,6 +34,9 @@ p{
     color: #f7df1e;
     transform: ;
 }
+#sql:hover{
+    color: teal;
+}
 
 
 
@@ -45,6 +48,7 @@ p{
 #header1{
     font-family: 'Bangers', cursive;
     width: auto;
+    font-kerning: 5px;
 }
 
 /* Button graph */

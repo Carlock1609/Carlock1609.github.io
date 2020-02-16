@@ -1,60 +1,18 @@
 body, html {
-    height: 100%;
+    height: 100vh;
   }
-  
-.bg_first {
-    /* The image used */
-    background: white;
-    color: rgb(51, 134, 167);
-    
-    /* Full height */
-    height: 50%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg_second {
-    /* The image used */
-    color: white;
-    background: rgb(51, 134, 167);
-    /* Full height */
-    height: 50%;
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#middle_container {
+    padding-top: 50px;
+    margin-top: 200px;
+    height: auto;
+    width: 50vh;
 }
 img {
-    height: 200px;
+    border-radius: 12px;
+    height: auto;
     width: 200px;
-    border-radius: 100px;
-    margin-left: 50px;
-}
-#profile_div {
-    margin-top: 50px;
-    margin-left: 130px;
 }
 #link_div {
-    margin-top: 20px;
-    margin-left: 105px;
-}
-i {
-    font-size: 2rem;
-}
-#p_content {
-    font-size: 1.3rem;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-#stacks {
-    font-size: 1.3rem;
-    /* margin-top: 100px; */
-}
-#first_content {
-    margin-top: 150px;
-    font-size: 1.3rem;
-    margin-right: 100px;
+    padding-bottom: 20px;
 }

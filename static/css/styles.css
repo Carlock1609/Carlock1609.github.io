@@ -19,11 +19,11 @@
 
 @media (min-width: 681px) {
     body, html {
-        height: 100vh;        
+        height: 70vh;        
       }
     #middle_container {
         padding-top: 50px;
-        margin-top: 200px;
+        margin-top: 150px;
         height: auto;
         width: 50vh;
     }
@@ -58,4 +58,7 @@ a {
 }
 body {
     font-family: 'Sriracha', cursive;
+}
+#text {
+    font-size: 1.1rem;
 }

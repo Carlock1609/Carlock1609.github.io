@@ -6,10 +6,15 @@
         margin-bottom: 25px;
         width: 50vh;
     }
-    img {
+    #profile_img {
         border-radius: 12px;
         height: auto;
         width: 200px;
+    }
+    #project_img {
+        border-radius: 12px;
+        height: 190px;
+        width: 250px;
     }
     #link_div {
         padding-bottom: 20px;
@@ -26,17 +31,22 @@
         margin-top: 115px;
         height: auto;
         width: 50vh;
+        margin-bottom: 115px;
     }
-    img {
+    #profile_img {
         border-radius: 12px;
         height: auto;
         width: 200px;
+    }
+    #project_img {
+        border-radius: 12px;
+        height: 190px;
+        width: 250px;
     }
     #link_div {
         padding-bottom: 20px;
     } 
 }    
-
 i {
     font-size: 1.7rem;
     margin-bottom: 20px;

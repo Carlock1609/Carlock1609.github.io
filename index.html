@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Sriracha&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/d2fa6f82cb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+  
 
 
     <title>Jon's Portfolio</title>
@@ -18,12 +19,14 @@
     <div class="container">
         <div id="middle_container" class="container shadow-lg text-center">
             <p id="caption">Hello, my name is Jon! <br> I'm a <span id="underline_cap">Web Developer</span></p>
-            <img id="profile_img" src="/static_images/personal_photo.jpg" alt="" height="200" width="200">
-            <p class="mt-3" id="text">I'm based out in Portland, OR and I'm looking for any opportunities to increase my knowledge and to be apart of something BIG. I like to work on projects by myself, however, I LOVE working as part of a team. I'm the person who gets overly excited when goals are attained, and hypes everyone else up to keep the train rolling.</p>     
-            
-            <div class="container shadow-lg mt-3 mb-3">
+            <img id="profile_img" src="static_images/personal_photo.jpg" alt="" height="200" width="200">
+            <!-- ADD INFO ABOUT WORKING AS TA -->
+            <p class="mt-3" id="text">I'm looking for any opportunities to increase my knowledge and to be apart of something BIG. I like to work on projects by myself, however, I LOVE working as part of a team. I'm the person who gets overly excited when goals are attained, and hypes everyone else up to keep the train rolling.</p>     
+          
+            <div id="border_container" class="container mt-4 mb-4">
+
               <div class="row">
-                <div class="col-4">
+                <div class="col-4 pt-2">
                   <p><b>Languages:</b></p>
                   <p>
                     Python
@@ -31,19 +34,17 @@
                     Javascript
                   </p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 pt-2">
                   <p>
                     <b>Frameworks:</b>
                   </p>
                   <p>
-                    HTML
-                    <br>
-                    CSS
+                    HTML+CSS
                     <br>
                     Django
                   </p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 pt-2">
                   <p><b>Databases:</b></p>
                   <p>
                     SQLite
@@ -52,34 +53,64 @@
                   </p>
                 </div>
               </div>
-              <p><b>EXPERIENCE IN</b></p>
-              <p>API's, Git/GitHub, Pair/Mob Coding, Projects, E-Commerce</p>
+              <p>
+                <b>OTHER</b>
+                <br>
+                API's, Git/GitHub, Pair/Mob Coding, Projects, E-Commerce, Database Design, AWS S3Buckets+CloudFront, BootStrap, Heroku Deployment, PEP8
+              </p>
 
             </div>
-            <p id="contact"><b>PROJECTS</b></p>
+            <p class="separator"><b>EDUCATION/CERTIFICATES</b></p>
+              <p id="text">
+                  PDX Code Guild | Programming BootCamp
+                    <br>
+                    - FullStack Web Development
+                    <br>
+                    - <a href="https://www.pdxcodeguild.com/">www.pdxcodeguild.com</a>
+                    <br><br>
+                  Click on Images <i class="far fa-hand-point-down"></i>
+                    <div class="row">
+                      <div class="col">
+                        <img id="myImg" class="cert_img" src="static_images/UC-ADNVGWO8.jpg" alt="" height="200" width="200">
+                      </div>
+                      <div class="col">
+                        <img id="myImg" class="cert_img" src="static_images/FullSizeRender.jpeg" alt="" height="200" width="200">
+                      </div>
+                    </div>
+              </p>
+                          <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close"><br><br>&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+              <br><br>
+            </div>
+
+            <p class="separator"><b>PERSONAL PROJECTS</b></p>
               <p><b>CLIQUE</b></p>
-              <img class="mb-2" id="project_img" src="/static_images/home.png" alt="" height="200" width="200">
-              <p id="text">CLIQUE is a Social Media Website built for Photographers and Creators/Influencers looking for an easier way to Connect, Collaborate and to Create Content.</p>
+              <img class="mb-2" id="project_img" src="static_images/home.png" alt="" height="200" width="200">
+              <p id="text"><b>Clique</b> is a Social Media Website built for Photographers and Creators/Influencers looking for an easier way to Connect, Collaborate and to Create Content.</p>
               <p id="text" class="mt-0">
                 Check it out!
                 <br>
                 <a href="https://www.findcliques.com/">www.findcliques.com</a>
-              </p>
-              
-
-            <p id="contact"><b>CONTACT</b></p>
+            </p>
+            
+            <p class="separator"><b>CONTACT INFO</b></p>
             <span id="link_div">
-              <a href="https://www.linkedin.com/in/jonathan-yates-297130195/">
+              <a id="linked" href="https://www.linkedin.com/in/jonathan-yates-297130195/">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="mailto: carlock1609@gmail.com?subject=Hello Jon!&body=Lets Collaborate!">
+              <a id="gmail" href="mailto: carlock1609@gmail.com?subject=Hello Jon!&body=Lets Collaborate!">
                 <i class="far fa-envelope"></i>
               </a>
 
-                <a href="https://github.com/Carlock1609">
+                <a id="github" href="https://github.com/Carlock1609">
                   <i class="fab fa-github"></i>
                 </a>
             </span>
+            <p><i id="pin" class="fas fa-map-pin"></i><b class="mb-3"> PORTLAND, OREGON</b></p>
      
 
         </div>
@@ -91,6 +122,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="/static/js/main.js"></script>
+    <script src="static/js/main.js"></script>
   </body>
 </html>
+
+
+

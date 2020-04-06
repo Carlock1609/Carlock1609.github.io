@@ -191,10 +191,12 @@
         width: 100%;
         }
     } 
+}   
 
+#middle_container {
+    border-radius: 10px;
+}
 
-
-}    
 i {
     font-size: 1.7rem;
     margin-bottom: 20px;

@@ -267,3 +267,12 @@ body {
 #django_project {
     border-bottom: 1px solid black;
 }
+
+
+
+#resume {
+    border: 1px solid black;
+    width: 100px;
+    /* float: left; */
+    text-align: center;
+}

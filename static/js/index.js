@@ -1,13 +1,13 @@
 // Scrolling affects
 ScrollReveal().reveal('#profile-img', { delay: 100 });
 ScrollReveal().reveal('#caption', { interval: 200 });
-ScrollReveal().reveal('.summary-text', { delay: 300 });
-ScrollReveal().reveal('.credentials-text', { delay: 300 });
-ScrollReveal().reveal('#separator-projects', { delay: 300 });
-ScrollReveal().reveal('#projects *', { delay: 300 });
-ScrollReveal().reveal('#separator-education', { delay: 300 });
-ScrollReveal().reveal('#link-div *', { delay: 300 });
-ScrollReveal().reveal('#certificates *', { delay: 300 });
+ScrollReveal().reveal('.summary-text', { delay: 200 });
+ScrollReveal().reveal('.credentials-text', { delay: 200 });
+ScrollReveal().reveal('#separator-projects', { delay: 200 });
+ScrollReveal().reveal('#projects *', { delay: 200 });
+ScrollReveal().reveal('#separator-education', { delay: 200 });
+ScrollReveal().reveal('#link-div *', { delay: 200 });
+ScrollReveal().reveal('#certificates *', { delay: 200 });
 
 
 // MODAL

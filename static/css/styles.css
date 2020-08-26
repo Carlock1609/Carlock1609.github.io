@@ -1,7 +1,11 @@
+body {
+    font-family: 'Sriracha', cursive;
+}
 #header {
     height: 25%;
     text-align: center;
     background-color: ivory;
+    font-family: 'Roboto Mono', monospace;
 }
 #profile-img {
     border-radius: 100%;

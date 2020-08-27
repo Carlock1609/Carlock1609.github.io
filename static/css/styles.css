@@ -175,8 +175,9 @@ body {
     margin-left: .25em;
 }
 
-
-
+#underline-creds {
+    border-bottom: 1px solid black;
+}
 #project_img {
     width: 280px;
 }

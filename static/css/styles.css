@@ -177,7 +177,9 @@ body {
 
 
 
-
+#project_img {
+    width: 280px;
+}
 #projects {
     /* display: flex; */
     align-items: center;

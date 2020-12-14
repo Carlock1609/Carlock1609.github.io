@@ -1,13 +1,21 @@
 import React from 'react';
-import { Switch, Router as BrowserRouter, Route } from 'react-router'
+import history from './history';
 
-import './App.css';
+import Home from './components/Home';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 
 const App = (props) => {
   return (
-    <Switch>
-
-    </Switch>
+    <Router history={history} forceRefresh={true}>
+      <Switch>
+        <Route path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 }
 

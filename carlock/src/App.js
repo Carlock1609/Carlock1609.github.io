@@ -4,7 +4,7 @@ import history from './history';
 import Home from './components/Home';
 
 import {
-  BrowserRouter as Router,
+  Router,
   Switch,
   Route,
 } from 'react-router-dom';

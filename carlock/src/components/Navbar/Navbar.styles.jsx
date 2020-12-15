@@ -6,10 +6,11 @@ export const NavWrapper = styled.div`
   left: 0;
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 50px;
   width: 100%;
-
+  z-index: 99;
   padding: 0 20px;
+  background: linear-gradient(to bottom,  rgba(0,0,0,.80), rgba(0,0,0,.10));
 `;
 export const NavItem = styled.div`
   height: 100%;
@@ -20,4 +21,7 @@ export const NavItem = styled.div`
     transition: .2s;
     color: grey;
   }
+`;
+export const EmailWrapper = styled.a`
+  
 `;

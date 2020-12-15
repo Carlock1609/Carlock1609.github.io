@@ -15,14 +15,23 @@ export const MainWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 1250px;
+  
 
-  margin: 50px auto 0 auto;
+  margin: 50px auto 50px auto;
 `;
 export const Wrapper = styled.div`
-
+  z-index: ${(props) => props.ZIndex ? props.ZIndex : 1};
   margin-top: ${(props) => props.indentTop ? props.indentTop : ''}px;
-  padding: 15px;
-  background: #c4c4c4;
+  padding: ${(props) => props.noPadding ? '15px 0px' : '25px'};
+  background: rgba(224, 224, 224, 0.329);
   border-radius: 5px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
+  ${(props) => props.Bottom ? `
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  ` : ``}
+  ${(props) => props.Top ? `
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  ` : ``}
 `;

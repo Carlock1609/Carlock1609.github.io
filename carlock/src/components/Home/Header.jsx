@@ -29,20 +29,14 @@ const Header = (props) => {
         >
         </Image>
         <Headline>
-          <Text size={20} indentTop={15} weight="600" color="white">
+          <Text size={20} indentTop={12} weight="600" color="white">
            WEB DEVELOPER
           </Text>
-          <Text weight="600" indentTop={15} color="white">
-            Software Engineer Intern @ Project ANT
-          </Text>
-          <Text weight="600" color="white">
-            Software Engineer Intern @ Open Water Accelerator
-          </Text>
-          <Text weight="600" color="white">
-            Teaching Assistant @ PDX Code Guild
-          </Text>
-          <Text weight="600" color="white">
+          <Text indentTop={12} weight="600" color="white">
             Frontend Developer | React, JavaScript
+          </Text>
+           <Text weight="600" color="white">
+            San Francisco, California
           </Text>
         </Headline>
       </Column>

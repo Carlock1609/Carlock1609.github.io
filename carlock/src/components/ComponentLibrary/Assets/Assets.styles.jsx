@@ -10,6 +10,10 @@ export const Image = styled.div`
   background-size: cover;
   cursor: ${(props) => props.select ? 'pointer' : ''};
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
+  ${(props) => props.card ? `
+    border-radius-bottom-left: 0px;
+    border-radius-bottom-right: 0px;
+  ` : ``}
 `;
 export const Icon = styled.img`
   height: ${(props) => props.size ? props.size : null}px;

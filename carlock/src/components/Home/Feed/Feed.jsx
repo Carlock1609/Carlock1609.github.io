@@ -4,8 +4,8 @@ import TableHeader from './TableHeader';
 import Table from './Table';
 
 const Feed = (props) => {
-  // about, portfolio, certifications
-  const [feed, setFeed] = useState('certifications');
+  // about, portfolio, certificates
+  const [feed, setFeed] = useState('about');
 
   return (
     <>

@@ -15,7 +15,6 @@ export const MainWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 1250px;
-  
 
   margin: 50px auto 50px auto;
 `;

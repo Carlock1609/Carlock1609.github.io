@@ -9,6 +9,7 @@ export const Text = styled.p`
   margin-bottom: ${(props) => props.indentBottom ? props.indentBottom : ''}px;
   margin-right: ${(props) => props.indentRight ? props.indentRight : ''}px;
   margin-left: ${(props) => props.indentLeft ? props.indentLeft : ''}px;
+  text-align: ${(props) => props.align ? props.align : null};
   ${(props) => props.underline ? `
     border-bottom: 2px solid white;
   ` : ``}

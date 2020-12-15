@@ -1,8 +1,12 @@
 import React from 'react';
 
 import {
-  Row
+  Row,
+  Column
 } from '../ComponentLibrary/Layout';
+import {
+  Text
+} from '../ComponentLibrary/Typography';
 import {
   NavWrapper,
   NavItem,
@@ -57,9 +61,7 @@ const Navbar = (props) => {
         <LinkWrapper 
           href="mailto:carlock1609@gmail.com?subject=Hello Jonanthan!"
         >
-          <NavItem
-            // onClick={(e) => alert('email clicked')}
-          >
+          <NavItem>
             <Icon
               size={25}
               indentLeft={25}

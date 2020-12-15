@@ -18,7 +18,7 @@ const Table = (props) => {
         props.feed === 'portfolio' ?
           <Portfolio />
         :
-        props.feed === 'certifications' ?
+        props.feed === 'certificates' ?
           <Certifications />
         :
         null

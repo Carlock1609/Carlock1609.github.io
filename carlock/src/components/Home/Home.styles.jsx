@@ -58,11 +58,12 @@ export const Bar = styled.div`
   ` : ``}
 
 `;
-
-export const ProjectItem = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 250px;
-
-  margin: 15px;
+export const HorizontalHR = styled.div`
+  height: 1px;
+  width: 100%;
+  background: #bbbbbb;
+`;
+export const AboutItem = styled.div`
+  width: 300px;
+  text-align: center;
 `;

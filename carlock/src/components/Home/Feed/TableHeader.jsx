@@ -46,17 +46,17 @@ const TableHeader = (props) => {
           ></Bar>
         </FeedItem>
         <FeedItem
-          onClick={(e) => props.setFeed('certifications')}
-          selected={props.feed === 'certifications'}
+          onClick={(e) => props.setFeed('certificates')}
+          selected={props.feed === 'certificates'}
         >
           <Text 
             size={18} 
             color="white"
           >
-            Certifications
+            Certificates
           </Text>
           <Bar
-            selected={props.feed === 'certifications'}
+            selected={props.feed === 'certificates'}
           ></Bar>
         </FeedItem>
       </FeedWrapper>

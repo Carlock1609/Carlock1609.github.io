@@ -8,7 +8,8 @@ import {
 } from '../../ComponentLibrary/Containers';
 import { 
   FeedWrapper,
-  FeedItem
+  FeedItem,
+  Bar
 } from '../Home.styles';
 
 const TableHeader = (props) => {
@@ -26,6 +27,9 @@ const TableHeader = (props) => {
           >
             About
           </Text>
+          <Bar
+            selected={props.feed === 'about'}
+          ></Bar>
         </FeedItem>
         <FeedItem
           onClick={(e) => props.setFeed('portfolio')}
@@ -37,6 +41,9 @@ const TableHeader = (props) => {
           >
             Portfolio
           </Text>
+          <Bar
+            selected={props.feed === 'portfolio'}
+          ></Bar>
         </FeedItem>
         <FeedItem
           onClick={(e) => props.setFeed('certifications')}
@@ -48,6 +55,9 @@ const TableHeader = (props) => {
           >
             Certifications
           </Text>
+          <Bar
+            selected={props.feed === 'certifications'}
+          ></Bar>
         </FeedItem>
       </FeedWrapper>
     </Wrapper>

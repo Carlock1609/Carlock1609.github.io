@@ -6,7 +6,7 @@ import {
 import {
   NavWrapper,
   NavItem,
-  EmailWrapper
+  LinkWrapper
 } from './Navbar.styles';
 import {
   Icon
@@ -15,8 +15,12 @@ import {
 import {
   linkedin_logo,
   mail_logo,
-  github_logo
+  github_logo,
+  resume_logo
 } from '../../assets/images';
+import {
+  resume
+} from '../../assets/resume';
 
 const Navbar = (props) => {
 
@@ -50,7 +54,9 @@ const Navbar = (props) => {
             alt="github logo"
           />
         </NavItem>
-        <EmailWrapper href="mailto:carlock1609@gmail.com?subject=Hello Jonanthan!">
+        <LinkWrapper 
+          href="mailto:carlock1609@gmail.com?subject=Hello Jonanthan!"
+        >
           <NavItem
             // onClick={(e) => alert('email clicked')}
           >
@@ -61,17 +67,19 @@ const Navbar = (props) => {
               alt="email logo"
             />
           </NavItem>
-        </EmailWrapper>
-        <NavItem
-            onClick={(e) => alert('resume clicked')}
-          >
+        </LinkWrapper>
+        <LinkWrapper
+          href={resume}
+        >
+          <NavItem>
             <Icon
               size={25}
               indentLeft={25}
-              src={mail_logo}
+              src={resume_logo}
               alt="resume logo"
             />
           </NavItem>
+        </LinkWrapper>
       </Row>
     </NavWrapper>
   );

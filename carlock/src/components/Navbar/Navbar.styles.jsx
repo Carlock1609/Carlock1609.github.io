@@ -22,6 +22,6 @@ export const NavItem = styled.div`
     color: grey;
   }
 `;
-export const EmailWrapper = styled.a`
+export const LinkWrapper = styled.a`
   
 `;

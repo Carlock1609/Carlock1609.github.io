@@ -8,11 +8,12 @@ export const Image = styled.div`
   background: url(${(props) => props.image ? props.image : null}), grey;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   cursor: ${(props) => props.select ? 'pointer' : ''};
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
   ${(props) => props.card ? `
-    border-radius-bottom-left: 0px;
-    border-radius-bottom-right: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   ` : ``}
 `;
 export const Icon = styled.img`

@@ -13,8 +13,9 @@ import {
 const ProjectCard = (props) => {
 
   return (
-    <ProjectWrapper card>
+    <ProjectWrapper>
       <Image
+        card
         size={350}
         radius={5}
         image={props.project.image}

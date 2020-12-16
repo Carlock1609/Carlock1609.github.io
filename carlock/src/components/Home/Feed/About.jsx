@@ -26,8 +26,10 @@ const About = (props) => {
       </Row>
       <Row>
         <Column align="center">
-          <AboutItem>
-            <Text indentTop={5} weight="500" size={20} color="white">
+          <AboutItem
+            size={350}
+          >
+            <Text indentTop={5} weight="600" size={20} color="white">
               Languages:
             </Text>
             <Text color="white">
@@ -36,18 +38,22 @@ const About = (props) => {
           </AboutItem>
         </Column>
         <Column align="center">
-          <AboutItem>
-            <Text indentTop={5} weight="500" size={20} color="white">
+          <AboutItem
+            size={350}
+          >
+            <Text indentTop={5} weight="600" size={20} color="white">
               Frameworks/Libraries:
             </Text>
             <Text color="white">
-              React, Express, Django, HTML/CSS, Bootstrap, SASS, Styled-components
+              React, Express, Redux, Django, HTML/CSS, Bootstrap, SASS, Styled-components
             </Text>
           </AboutItem>
         </Column>
         <Column align="center">
-          <AboutItem>
-            <Text weight="500" size={20} color="white">
+          <AboutItem
+            size={350}
+          >
+            <Text weight="600" size={20} color="white">
               Others:
             </Text>
             <Text color="white">
@@ -69,20 +75,30 @@ const About = (props) => {
         </Row>
         <Row>
           <Column align="center">
-            <Text size={18} color="white">
-              I’m looking for any opportunities to prove what I can do. I specialize in working with Designers/UX/UI's and making their vision come to life. I also enjoy cloning website designs.
-            </Text>
-          </Column>
-           <Column align="center">
-            <Text weight="500" size={18} color="white">
-              Software Engineer Intern @ Project ANT
-            </Text>
+            <AboutItem
+              size={426}
+              wrapEarly
+            >
               <Text weight="500" size={18} color="white">
-              Software Engineer Intern @ Open Water Accelerator
-            </Text>
-            <Text weight="500" size={18} color="white">
-              Teaching Assistant @ PDX Code Guild
-            </Text>
+                Software Engineer @ Project ANT
+              </Text>
+                <Text weight="500" size={18} color="white">
+                Software Engineer Intern @ Open Water Accelerator
+              </Text>
+              <Text weight="500" size={18} color="white">
+                Teaching Assistant @ PDX Code Guild
+              </Text>
+            </AboutItem>
+          </Column>
+          <Column align="center">
+            <AboutItem
+              size={300}
+              wrapEarly
+            >
+              <Text size={18} color="white">
+                I’m looking for any opportunities to prove what I can do. I specialize in working with Designer's and making their vision come to life. I also enjoy cloning website designs.
+              </Text>
+            </AboutItem>
           </Column>
         </Row>
       </Space>

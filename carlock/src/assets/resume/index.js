@@ -1,5 +1,5 @@
-import resume from './resume.pdf';
+import Jonathan_Yates_resume from './Jonathan_Yates_resume.pdf';
 
 export {
-  resume
+  Jonathan_Yates_resume
 };

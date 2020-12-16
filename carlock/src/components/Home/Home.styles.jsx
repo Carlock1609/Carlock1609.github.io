@@ -67,8 +67,5 @@ export const AboutItem = styled.div`
   width: ${(props) => props.size ? props.size : null};
   min-width: 350px;
   text-align: center;
-  ${(props) => props.wrapEarly ? `
-    min-width: 420px;
-    margin-top: 15px;
-  `: ``}
+  margin-top: 10px;
 `;

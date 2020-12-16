@@ -27,7 +27,7 @@ const About = (props) => {
       <Row>
         <Column align="center">
           <AboutItem
-            size={350}
+            size={300}
           >
             <Text indentTop={5} weight="600" size={20} color="white">
               Languages:
@@ -39,7 +39,7 @@ const About = (props) => {
         </Column>
         <Column align="center">
           <AboutItem
-            size={350}
+            size={300}
           >
             <Text indentTop={5} weight="600" size={20} color="white">
               Frameworks/Libraries:
@@ -51,7 +51,7 @@ const About = (props) => {
         </Column>
         <Column align="center">
           <AboutItem
-            size={350}
+            size={300}
           >
             <Text weight="600" size={20} color="white">
               Others:
@@ -74,9 +74,9 @@ const About = (props) => {
           </Column>
         </Row>
         <Row>
-          <Column align="center">
+          <Column scalar={1} align="center">
             <AboutItem
-              size={426}
+              size={300}
               wrapEarly
             >
               <Text weight="500" size={18} color="white">

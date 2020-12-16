@@ -11,7 +11,7 @@ export const CertWrapper = styled.div`
   box-sizing: border-box;
 `;
 export const ProjectWrapper = styled.div`
-  width: 350px;
+  width: 340px;
   height: fit-content;
 
   background:#D9C99A;

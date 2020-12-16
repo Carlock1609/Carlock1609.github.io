@@ -25,14 +25,14 @@ export const FeedItem = styled.div`
   width: fit-content;
   padding: 0 15px;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-top-left-radius: ${(props) => props.first ? 5 : 0}px;
   cursor: pointer;
   :hover {
     transition: .2s;
-    background: #969696;
+    background:#B3C7BD;
   }
   ${(props) => props.selected ? `
-    background:#969696;
+    background: #B3C7BD;
   `: ``}
 `;
 const ExpandBar = keyframes`
@@ -45,13 +45,13 @@ const ExpandBar = keyframes`
 `;
 export const Bar = styled.div`
   position: absolute;
-  bottom: -3px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
   height: 4px;
   width: 0%;
-  background: black;
+  background: white;
   ${(props) => props.selected ? css`
     animation: ${ExpandBar} .2s ease-in;
     animation-fill-mode: forwards

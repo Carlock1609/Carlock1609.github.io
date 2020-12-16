@@ -18,6 +18,7 @@ const TableHeader = (props) => {
     <Wrapper Bottom ZIndex={1} noPadding>
       <FeedWrapper>
         <FeedItem
+          first
           onClick={(e) => props.setFeed('about')}
           selected={props.feed === 'about'}
         >

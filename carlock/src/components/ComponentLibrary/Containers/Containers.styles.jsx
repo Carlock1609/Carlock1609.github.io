@@ -8,7 +8,7 @@ export const Background = styled.div`
   height: 100%;
   
   margin: 0;
-  background: #5a5a5a;
+  background:#8C4949;
 `;
 export const MainWrapper = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   z-index: ${(props) => props.ZIndex ? props.ZIndex : 1};
   margin-top: ${(props) => props.indentTop ? props.indentTop : ''}px;
   padding: ${(props) => props.noPadding ? '0' : '25px'};
-  background: rgba(224, 224, 224, 0.329);
+  background:#91908c;
   border-radius: 5px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.397);
   box-sizing: border-box;

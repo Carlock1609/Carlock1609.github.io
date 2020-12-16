@@ -9,6 +9,9 @@ import {
 import {
   ProjectWrapper
 } from './Cards.styles';
+import { 
+  LinkWrapper
+} from '../../Navbar/Navbar.styles';
 
 const ProjectCard = (props) => {
 
@@ -39,6 +42,22 @@ const ProjectCard = (props) => {
       >
         {props.project.description}
       </Text>
+      {props.project.link ?
+        <LinkWrapper
+          href={props.project.link}
+        >
+          <Text
+            weight="500"
+            indentTop={10}
+            indentLeft={10}
+            color="white"
+          >
+            {props.project.link}
+          </Text>
+        </LinkWrapper>
+        :
+        null
+      }
     </ProjectWrapper>
   );
 };

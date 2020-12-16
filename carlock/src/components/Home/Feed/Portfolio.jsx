@@ -44,7 +44,8 @@ const Portfolio = (props) => {
       key: 4,
       title: 'CLIQUE',
       description: 'is a Social Media Website built for Photographers and Creators/Influencers looking for an easier way to Connect, Collaborate and to Create Content.',
-      image: clique
+      image: clique,
+      link: 'http://www.findcliques.com/users/login/'
     },
   ])
 

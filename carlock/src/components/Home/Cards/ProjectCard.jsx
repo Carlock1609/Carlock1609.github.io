@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
     <ProjectWrapper>
       <Image
         card
-        size={350}
+        size={340}
         radius={5}
         image={props.project.image}
       ></Image>

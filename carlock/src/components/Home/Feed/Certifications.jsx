@@ -11,6 +11,7 @@ import {
   cert_udemy2,
   cert_udemy3,
   cert_pdx,
+  hackathon_achievement
 } from '../../../assets/images';
 
 const Certifications = (props) => {
@@ -21,20 +22,25 @@ const Certifications = (props) => {
       image: cert_udemy1,
     },
     {
-      key: 0,
+      key: 1,
       title: 'Full Stack React, Redux, Node.js & Express',
       image: cert_udemy2,
     },
     {
-      key: 0,
+      key: 2,
       title: 'The Web Developer Bootcamp',
       image: cert_udemy3,
     },
     {
-      key: 0,
+      key: 3,
       title: 'Python-Based Developer Bootcamp',
       image: cert_pdx,
     },
+    {
+      key: 4,
+      title: '2020 Hackathon, Team Tahoe',
+      image: hackathon_achievement,
+    }
   ])
 
   return (

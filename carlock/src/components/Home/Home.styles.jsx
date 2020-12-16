@@ -29,10 +29,10 @@ export const FeedItem = styled.div`
   cursor: pointer;
   :hover {
     transition: .2s;
-    background:#B3C7BD;
+    background:#bebebe;
   }
   ${(props) => props.selected ? `
-    background: #B3C7BD;
+    background:#bebebe;
   `: ``}
 `;
 const ExpandBar = keyframes`
@@ -64,6 +64,11 @@ export const HorizontalHR = styled.div`
   background: #bbbbbb;
 `;
 export const AboutItem = styled.div`
-  width: 300px;
+  width: ${(props) => props.size ? props.size : null};
+  min-width: 350px;
   text-align: center;
+  ${(props) => props.wrapEarly ? `
+    min-width: 420px;
+    margin-top: 15px;
+  `: ``}
 `;

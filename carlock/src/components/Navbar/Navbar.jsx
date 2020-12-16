@@ -23,7 +23,7 @@ import {
   resume_logo
 } from '../../assets/images';
 import {
-  resume
+  Jonathan_Yates_resume
 } from '../../assets/resume';
 
 const Navbar = (props) => {
@@ -59,7 +59,7 @@ const Navbar = (props) => {
           />
         </NavItem>
         <LinkWrapper 
-          href="mailto:carlock1609@gmail.com?subject=Hello Jonanthan!"
+          href="mailto:carlock1609@gmail.com?subject=Hello Jonathan!"
         >
           <NavItem>
             <Icon
@@ -71,7 +71,7 @@ const Navbar = (props) => {
           </NavItem>
         </LinkWrapper>
         <LinkWrapper
-          href={resume}
+          href={Jonathan_Yates_resume}
         >
           <NavItem>
             <Icon

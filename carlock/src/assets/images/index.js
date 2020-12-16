@@ -11,6 +11,7 @@ import cert_udemy2 from './cert_udemy2.jpg';
 import cert_udemy3 from './cert_udemy3.jpg';
 import cert_pdx from './cert_pdx.jpeg';
 import resume_logo from './resume_logo.svg';
+import profile_image from './profile_image.jpg';
 
 export {
   clique,
@@ -26,4 +27,5 @@ export {
   cert_udemy2,
   cert_udemy3,
   cert_pdx,
+  profile_image
 };
